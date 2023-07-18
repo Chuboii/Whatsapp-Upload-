@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Images</title>
+    <link rel="stylesheet" href="style.css">
+      <!-- font awesome cdn link  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+</head>
+<body>
+    <!-- <div class="image">
+        <img src="" alt="">
+    </div>
+   <input type="file" name="" id="">
+<button>Upload Picture</button> -->
+
+<div class="file-upload-box">
+    <header>
+        <i class="fa fa-times" id="file-times" aria-hidden="true"></i>
+        <div class="others">
+            <i class="fas fa-crop-alt    "></i>
+            <i class="fa fa-smile" aria-hidden="true"></i>
+            <i class="fa fa-text-height" aria-hidden="true"></i>
+            <i class="fa fa-edit" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <main class="pic-holder">
+        <img src="Black Romance Novel Book Cover.png" alt="" class="pic-hold">
+    </main>
+
+    <footer>
+        <form action="">
+            <input type="text" name="text" id="text"  placeholder="Add a caption...">
+            <i class="fa fa-image" aria-hidden="true">
+                <input type="file" name="" id="">
+            </i>
+        </form>
+
+        <div class="below">
+            <div class="contacts">
+                <i class="fas fa-ring"></i>
+                <p>Status</p>
+                <span>(Contacts)</span>
+            </div>
+    
+            <button class="desc-send">
+                <i class="fa fa-microphone" id="desc-mic" aria-hidden="true"></i>
+            </button>
+        </div>
+    </footer>
+</div>
+<div class="main-page">
+    <div class="post-icons">
+        <i class="fa fa-edit" id="edit-text" aria-hidden="true"></i>
+        <i class="fa fa-camera" aria-hidden="true">
+            <input type="file" name="" id="" class="img" accept="image/*">
+        </i>
+    </div>
+    <header class="main">
+        <p class="text">Status</p>
+        <div class="icons">
+            <i class="fa fa-search" aria-hidden="true"></i> 
+            <i class="fa fa-camera" aria-hidden="true"></i> 
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <div class="sub-header">
+        <div class="user-stat friends-stat">
+            <img src="istockphoto-1355037936-170667a.jpg" alt="" class='img'>
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <p class="user-name">You</p>
+        </div>
+
+        <div class="friends-stat">
+            <img src="Black Romance Novel Book Cover.png" alt="" class="recent-stat">
+            <img src="Blue Modern Eye Catching Vlog YouTube Thumbnail.png" alt="" class="pro-pics">
+            <p class="user-name">Joe Doe</p>
+            <div class="stat-line-box">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+        <div class="friends-stat">
+            <img src="Black Romance Novel Book Cover.png" alt="" class="recent-stat">
+            <img src="Blue Modern Eye Catching Vlog YouTube Thumbnail.png" alt="" class="pro-pics">
+            <p class="user-name">Joe Doe</p>
+            <div class="stat-line-box">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="friends-stat">
+            <img src="Black Romance Novel Book Cover.png" alt="" class="recent-stat">
+            <img src="Blue Modern Eye Catching Vlog YouTube Thumbnail.png" alt="" class="pro-pics">
+            <p class="user-name">Joe Doe</p>
+            <div class="stat-line-box">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+        <div class="friends-stat">
+            <img src="Black Romance Novel Book Cover.png" alt="" class="recent-stat">
+            <img src="Blue Modern Eye Catching Vlog YouTube Thumbnail.png" alt="" class="pro-pics">
+            <p class="user-name">Joe Doe</p>
+            <div class="stat-line-box">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="friends-stat">
+            <img src="Black Romance Novel Book Cover.png" alt="" class="recent-stat">
+            <img src="Blue Modern Eye Catching Vlog YouTube Thumbnail.png" alt="" class="pro-pics">
+            <p class="user-name">Joe Doe</p>
+            <div class="stat-line-box">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="friends-stat">
+            <img src="Black Romance Novel Book Cover.png" alt="" class="recent-stat">
+            <img src="Blue Modern Eye Catching Vlog YouTube Thumbnail.png" alt="" class="pro-pics">
+            <p class="user-name">Joe Doe</p>
+            <div class="stat-line-box">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="user-status">
+        <div class="image">
+        <img src="istockphoto-1355037936-170667a.jpg" alt="">
+        <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+        <div class="info">
+            <p class="">My status</p>
+            <p>Tap to add status update</p>
+        </div>
+    </div>
+
+    <div class="recent-bloc">Recent Updates</div>
+    <div class="recent-stats-bloc">
+        <div class="item">
+        <img src="Black Romance Novel Book Cover.png" alt="">
+        <div class="info">
+            <p class="user-name">Joe Doe</p>
+            <span class="time">Today, 7:14 AM</span>
+        </div>
+        </div>
+
+        <div class="item">
+            <img src="Black Romance Novel Book Cover.png" alt="">
+            <div class="info">
+                <p class="user-name">Joe Doe</p>
+                <span class="time">Today, 7:14 AM</span>
+            </div>
+            </div>
+
+            <div class="item">
+                <img src="Black Romance Novel Book Cover.png" alt="">
+                <div class="info">
+                    <p class="user-name">Joe Doe</p>
+                    <span class="time">Today, 7:14 AM</span>
+                </div>
+                </div>
+
+                <div class="item">
+                    <img src="Black Romance Novel Book Cover.png" alt="">
+                    <div class="info">
+                        <p class="user-name">Joe Doe</p>
+                        <span class="time">Today, 7:14 AM</span>
+                    </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="Black Romance Novel Book Cover.png" alt="">
+                        <div class="info">
+                            <p class="user-name">Joe Doe</p>
+                            <span class="time">Today, 7:14 AM</span>
+                        </div>
+                        </div>
+    </div>
+
+    <div class="viewed-stat-text">Viewd updates</div>
+    <div class="viewed-stat-bloc">
+        <div class="item">
+            <img src="Black Romance Novel Book Cover.png" alt="">
+            <div class="info">
+                <p class="user-name">Joe Doe</p>
+                <span class="time">Today, 7:14 AM</span>
+            </div>
+            </div>
+
+            <div class="item">
+                <img src="Black Romance Novel Book Cover.png" alt="">
+                <div class="info">
+                    <p class="user-name">Joe Doe</p>
+                    <span class="time">Today, 7:14 AM</span>
+                </div>
+                </div>
+
+                <div class="item">
+                    <img src="Black Romance Novel Book Cover.png" alt="">
+                    <div class="info">
+                        <p class="user-name">Joe Doe</p>
+                        <span class="time">Today, 7:14 AM</span>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <img src="Black Romance Novel Book Cover.png" alt="">
+                        <div class="info">
+                            <p class="user-name">Joe Doe</p>
+                            <span class="time">Today, 7:14 AM</span>
+                        </div>
+                        </div>
+        
+                        <div class="item">
+                            <img src="Black Romance Novel Book Cover.png" alt="">
+                            <div class="info">
+                                <p class="user-name">Joe Doe</p>
+                                <span class="time">Today, 7:14 AM</span>
+                            </div>
+                            </div>
+        
+                            <div class="item">
+                                <img src="Black Romance Novel Book Cover.png" alt="">
+                                <div class="info">
+                                    <p class="user-name">Joe Doe</p>
+                                    <span class="time">Today, 7:14 AM</span>
+                                </div>
+                                </div>
+                                <div class="item">
+                                    <img src="Black Romance Novel Book Cover.png" alt="">
+                                    <div class="info">
+                                        <p class="user-name">Joe Doe</p>
+                                        <span class="time">Today, 7:14 AM</span>
+                                    </div>
+                                    </div>
+                    
+                                    <div class="item">
+                                        <img src="Black Romance Novel Book Cover.png" alt="">
+                                        <div class="info">
+                                            <p class="user-name">Joe Doe</p>
+                                            <span class="time">Today, 7:14 AM</span>
+                                        </div>
+                                        </div>
+                    
+                                        <div class="item">
+                                            <img src="Black Romance Novel Book Cover.png" alt="">
+                                            <div class="info">
+                                                <p class="user-name">Joe Doe</p>
+                                                <span class="time">Today, 7:14 AM</span>
+                                            </div>
+                                            </div>
+    </div>
+</div>
+<div class="post-stat">
+    <header>
+        <i class="fa fa-times" id="back" aria-hidden="true"></i>
+        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+    </header>
+    <main class="board" contenteditable="true">
+
+    </main>
+
+    <footer>
+        <div class="contacts">
+            <i class="fas fa-ring"></i>
+            <p>Status</p>
+            <span>(Contacts)</span>
+        </div>
+
+        <button class="send">
+            <i class="fa fa-microphone" id="mic" aria-hidden="true"></i>
+        </button>
+    </footer>
+</div>
+
+<div class="img-stat">
+    <!-- <div class="user-status1">
+    <header class="img-header">
+        <div class="loader-box">
+             <div class="line">
+                <div class="load"></div>
+            </div>
+        </div>
+         
+  
+        <div class="info">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <div class="profile">
+                <img src="Black Romance Novel Book Cover.png" class="iimg" alt="">
+                <div class="name-box">
+                    <div class="user-name">
+                        Joe Doe
+                    </div>
+                    <div class="time-post">Today, 9:00 PM</div>
+                </div>
+            </div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <main class="image">
+        <img src="Black Romance Novel Book Cover.png" class="img-img" alt="">
+    </main>
+
+  <footer class="footer">
+    <section class="descript">
+        Chilling Yo
+    </section>
+    <div class="save-box">
+          <i class="fa fa-check" aria-hidden="true"></i> 
+          <div class="reply">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+            <p class="p">Reply</p>
+        </div>
+            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+    
+    </div>
+  </footer>
+</div>
+  
+
+<div class="user-status1">
+    <header class="img-header">
+        <div class="loader-box">
+             <div class="line">
+                <div class="load"></div>
+            </div>
+        </div>
+         
+  
+        <div class="info">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <div class="profile">
+                <img src="Black Romance Novel Book Cover.png" class="iimg" alt="">
+                <div class="name-box">
+                    <div class="user-name">
+                        Joe Doe
+                    </div>
+                    <div class="time-post">Today, 9:00 PM</div>
+                </div>
+            </div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <main class="image">
+        <img src="Black Romance Novel Book Cover.png" class="img-img" alt="">
+    </main>
+
+  <footer class="footer">
+    <section class="descript">
+        Chilling Yo
+    </section>
+    <div class="save-box">
+          <i class="fa fa-check" aria-hidden="true"></i> 
+          <div class="reply">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+            <p class="p">Reply</p>
+        </div>
+            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+    
+    </div>
+  </footer>
+</div>
+   -->
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
